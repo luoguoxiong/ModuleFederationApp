@@ -1,0 +1,19 @@
+{
+  "name": "modulefederationapp",
+  "version": "1.0.0",
+  "description": "模块联邦微前端",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luoguoxiong/ModuleFederationApp.git"
+  },
+  "author": "luoguoxiong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luoguoxiong/ModuleFederationApp/issues"
+  },
+  "homepage": "https://github.com/luoguoxiong/ModuleFederationApp#readme"
+}
