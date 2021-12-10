@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/luoguoxiong/ModuleFederationApp/issues"
   },
-  "homepage": "https://github.com/luoguoxiong/ModuleFederationApp#readme"
+  "homepage": "https://github.com/luoguoxiong/ModuleFederationApp#readme",
+  "devDependencies": {
+    "@tools-list/eslint-config-self": "0.0.4"
+  }
 }
