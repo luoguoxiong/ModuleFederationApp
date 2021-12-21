@@ -1,6 +1,6 @@
-import * as React from "libary/react";
+import * as React from 'libary/react';
 
-import LocalButton from "./Button";
+import LocalButton from './Button';
 
 const App = () => (
   <div>

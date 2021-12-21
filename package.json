@@ -4,7 +4,8 @@
   "description": "模块联邦微前端",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"cross-env NODE_ENV=dev node ./bin/index.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,9 @@
   },
   "homepage": "https://github.com/luoguoxiong/ModuleFederationApp#readme",
   "devDependencies": {
-    "@tools-list/eslint-config-self": "0.0.4"
+    "@tools-list/eslint-config-self": "0.0.3",
+    "cross-env": "^7.0.3",
+    "webpack": "5.61.0",
+    "webpack-dev-server": "4.2.1"
   }
 }

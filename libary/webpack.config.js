@@ -1,26 +1,27 @@
-const { ModuleFederationPlugin } = require("webpack").container;
-const path = require("path");
+const { ModuleFederationPlugin } = require('webpack').container;
+const path = require('path');
+
 module.exports = {
-  entry: "./index.js",
-  mode: "development",
-  devtool: "hidden-source-map",
+  entry: path.join(__dirname, './index.js'),
+  mode: 'development',
+  devtool: 'hidden-source-map',
   devServer: {
     static: {
-      directory: path.join(__dirname, "dist"),
+      directory: path.join(__dirname, 'dist'),
     },
     port: 8000,
   },
   output: {
-    publicPath: "auto",
+    publicPath: 'auto',
   },
   module: {},
   plugins: [
     new ModuleFederationPlugin({
-      name: "libary",
-      filename: "libary.js",
+      name: 'libary',
+      filename: 'libary.js',
       exposes: {
-        "./react": "react",
-        "./react-dom": "react-dom",
+        './react': 'react',
+        './react-dom': 'react-dom',
       },
     }),
   ],
